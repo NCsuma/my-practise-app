@@ -1,7 +1,7 @@
 /* Template by freewebsitetemplates.com */
 body {
-	background: #ffe4e1;
-	color: #315f52;
+	background: #FFA07A;
+	color:#800000;
 	font-family: 'latoregular';
 	font-size: 14px;
 	margin: 0;
@@ -56,16 +56,15 @@ p a:hover {
 	text-align: center;
 }
 #header h1 a {
-	color: #008000;
+	color: #0014a8;
 	text-decoration: none;
 }
 #header h1 a span {
-	color: #008000;
+	color: #0014a8;
 	display: block;
 	font-family: 'nixie_oneregular';
 	font-size: 38px;
 	font-weight: bold;
-	text-transform: uppercase;
 }
 #header ul#navigation {
 	list-style: none;
@@ -79,11 +78,11 @@ p a:hover {
 	position: relative;
 }
 #header ul#navigation li a {
-	color: #556b2f;
+	color: #0014a8;
 	font-size: 18px;
 	padding: 0 46px;
 	text-align: center;
-	text-decoration: none;
+	text-decoration: underline;
 	text-transform: uppercase;
 }
 #header ul#navigation li a:hover,
@@ -91,7 +90,7 @@ p a:hover {
 	color: #d3a3ff;
 }
 #header ul#navigation li.current a {
-	color: #556b2f;
+	color: #0014a8;
 }
 #header ul#navigation li ul {
 	display: none;
@@ -118,7 +117,7 @@ p a:hover {
 	color: #b6d8cf;
 }
 #body {
-	background: #ffffff;
+	background: #FFFFFF;
 	margin: 1px auto 0;
 	max-width: 880px;
 	min-height: 827px;
@@ -135,9 +134,7 @@ p a:hover {
 	padding: 0 0 44px;
 }
 #body img.figure {
-	display: block;
 	float: right;
-	margin: 74px 38px 46px 0;
 	max-width: 100%;
 	width: auto;
 }

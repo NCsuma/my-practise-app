@@ -1,6 +1,7 @@
-class Item:
+class BirdItem:
+
     name = None
-    image_name = None
+    bird_image_name = None
 
     def __init__(self,name,bird_image_name):
         self.name = name
