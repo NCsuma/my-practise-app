@@ -9,11 +9,11 @@ def index():
 
 @app.route('/birds')
 def display_birdimage():
-    item1 = BirdItem ("Cocatoo","images/Bird1.jpg")
+    item1 = BirdItem ("Scarlet Tanager","images/Bird1.jpg")
     item2 = BirdItem("Kiwi", "images/Bird2.jpg")
     item3 = BirdItem("Peacock", "images/Bird3.jpg")
     item4 = BirdItem("Rose Crowned Fruit Dove", "images/Bird4.jpg")
-    item5 = BirdItem("Violet Cuckoo", "images/Bird5.jpg")
+    item5 = BirdItem("Barn Owl", "images/Bird5.jpg")
     item6 = BirdItem("Woodpecker", "images/Bird6.jpg")
 
     birdsgroup1 = [item1,item2,item3]

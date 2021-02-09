@@ -213,11 +213,12 @@ p a:hover {
 	display: block;
 	max-width: 100%;
 	width: auto;
+	margin-top: 100;
 }
 #body div.content div ul li h4 {
-	font-family: 'nixie_oneregular';
-	font-size: 18px;
-	font-weight: normal;
+	font-family: 'sans-serif';
+	font-size: 20px;
+	font-weight: bolder;
 	margin: 0;
 	padding: 12px 0 0;
 	text-align: center;
